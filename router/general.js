@@ -35,15 +35,40 @@ public_users.get('/', function (req, res) {
 });
 
 // Get book details based on ISBN
-public_users.get('/isbn/:isbn',function (req, res) {
-  //Write your code here
-  return res.status(300).json({message: "Yet to be implemented"});
- });
+public_users.get('/isbn/:isbn', function (req, res) {
+  const isbn = req.params.isbn; // Retrieve ISBN from request parameters
+  const book = books[isbn]; // Assuming books is imported from booksdb.js
+  
+  // Check if the book with the given ISBN exists
+  if (book) {
+      // If the book exists, respond with its details in JSON format
+      res.status(200).json(book);
+  } else {
+      // If the book does not exist, respond with a 404 Not Found error
+      res.status(404).json({ message: "Book not found" });
+  }
+});
   
 // Get book details based on author
-public_users.get('/author/:author',function (req, res) {
-  //Write your code here
-  return res.status(300).json({message: "Yet to be implemented"});
+public_users.get('/author/:author', function (req, res) {
+  const author = req.params.author; // Retrieve author from request parameters
+  const booksByAuthor = [];
+
+  // Iterate through all books to find those by the provided author
+  Object.values(books).forEach(book => {
+      if (book.author === author) {
+          booksByAuthor.push(book);
+      }
+  });
+
+  // Check if any books by the author were found
+  if (booksByAuthor.length > 0) {
+      // If books by the author were found, respond with their details in JSON format
+      res.status(200).json(booksByAuthor);
+  } else {
+      // If no books by the author were found, respond with a 404 Not Found error
+      res.status(404).json({ message: "Books by this author not found" });
+  }
 });
 
 // Get all books based on title
