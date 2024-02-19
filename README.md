@@ -45,7 +45,7 @@ Contributions to the Book Review Management System are welcome! If you'd like to
 ## Thanks to team IBM
 
 
-[Team IBM coursera](https://example.com](https://www.coursera.org/professional-certificates/ai-engineer?&utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_ai-engineer_ibm_ftcof_professional-certificates_arte_feb_24_dr_geo-multi_sem_rsa_gads_lg-all&campaignid=21008477015&adgroupid=153939068330&device=c&keyword=coursera%20ibm%20ai%20engineering&matchtype=p&network=g&devicemodel=&adposition=&creativeid=690318779484&hide_mobile_promo&gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJtdr6KFwTNOSdIGQr9dOZRDeaG721to4FBLYKkj8AfU0yzUtdiEYFhoCJR4QAvD_BwE)https://www.coursera.org/professional-certificates/ai-engineer?&utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_ai-engineer_ibm_ftcof_professional-certificates_arte_feb_24_dr_geo-multi_sem_rsa_gads_lg-all&campaignid=21008477015&adgroupid=153939068330&device=c&keyword=coursera%20ibm%20ai%20engineering&matchtype=p&network=g&devicemodel=&adposition=&creativeid=690318779484&hide_mobile_promo&gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJtdr6KFwTNOSdIGQr9dOZRDeaG721to4FBLYKkj8AfU0yzUtdiEYFhoCJR4QAvD_BwE)
+[Team IBM coursera](https://www.ibm.com/us-en)
 
 
 ## Contact
@@ -53,4 +53,4 @@ Contributions to the Book Review Management System are welcome! If you'd like to
 For questions or feedback, feel free to contact the project maintainer:
 
 - Email: saqibnawab823@gmail.com
-- GitHub: [your-username]([https://github.com/your-username](https://github.com/Saqib-nawab)https://github.com/Saqib-nawab)
+- GitHub: [your-username](https://github.com/your-username](https://github.com/Saqib-nawab)https://github.com/Saqib-nawab)
